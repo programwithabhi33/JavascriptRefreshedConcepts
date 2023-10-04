@@ -1,6 +1,6 @@
 class logClass {
     constructor(){
-        // In the first time creating the static variable called instance and checking if it's null then assign the object that has been created and storing the reference of that object into the static variable called instance and returning it.
+        // In the first time creating the static variable called instance and checking if it's value is null then assign the object that has been created and storing the reference of that object into the static variable called instance and retur it.
         if(logClass.instance == null){
             this.logs = [];
             logClass.instance = this;
